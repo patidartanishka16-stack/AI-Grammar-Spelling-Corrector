@@ -1,0 +1,58 @@
+AI Grammar & Spelling Correction Tool
+Test Cases
+
+Test Case 1: Grammar Error
+Input:
+She go to school every day.
+
+Expected:
+Grammar error detected.
+Suggestion: goes
+
+Result:
+Passed
+
+
+Test Case 2: Spelling Error
+Input:
+I am very hapy today.
+
+Expected:
+Spelling error detected.
+Suggestion includes: happy
+
+Result:
+Passed
+
+
+Test Case 3: Multiple Errors
+Input:
+She go to college evry day. I am very hapy there.
+
+Expected:
+Multiple grammar/spelling errors detected.
+
+Result:
+Passed
+
+
+Test Case 4: Correct Sentence
+Input:
+She goes to college every day.
+
+Expected:
+No grammar or spelling errors found.
+
+Result:
+Passed
+
+
+Test Case 5: Multiple Sentences
+Input:
+I am a student. I goes to college every day. My friends is very supportive. We enjoys learning new things.
+
+Expected:
+Multiple grammar errors detected and corrected text generated.
+
+Result:
+Passed
