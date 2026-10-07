@@ -3,7 +3,10 @@ import language_tool_python
 
 st.title("AI Grammar & Spelling Corrector")
 
-tool = language_tool_python.LanguageTool("en-US")
+tool = language_tool_python.LanguageTool(
+    "en-US",
+    language_tool_download_version="6.6"
+)
 
 text = st.text_area("Enter your text:")
 
